@@ -1,6 +1,6 @@
 import React from "react";
 import video2 from "../assets/video1.mp4";
-// import { GrLocation } from "react-icons/gr";
+import { GrLocation } from "react-icons/gr";
 import { HiFilter } from "react-icons/hi";
 import { FiFacebook } from "react-icons/fi";
 import { AiOutlineInstagram } from "react-icons/ai";
@@ -25,7 +25,7 @@ const Home = () => {
             <label htmlFor="city">Search your destination</label>
             <div className="input flex">
               <input type="text" placeholder="Enter name here..." />
-              <FiFacebook className="icon" />
+              <GrLocation className="icon" />
             </div>
           </div>
 
