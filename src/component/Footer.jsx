@@ -56,27 +56,79 @@ const Footer = () => {
           <div className="footerLinks grid">
             <div className="linkGroup">
               <span className="groupTitle">OUR AGENCY</span>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                Services
+              </li>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                Insurance
+              </li>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                Agency
+              </li>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                Tourism
+              </li>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                Payment
+              </li>
             </div>
-            <li className="footerList flex">
-              <FiChevronRight className="icon" />
-              Services
-            </li>
-            <li className="footerList flex">
-              <FiChevronRight className="icon" />
-              Insurance
-            </li>
-            <li className="footerList flex">
-              <FiChevronRight className="icon" />
-              Agency
-            </li>
-            <li className="footerList flex">
-              <FiChevronRight className="icon" />
-              Tourism
-            </li>
-            <li className="footerList flex">
-              <FiChevronRight className="icon" />
-              Payment
-            </li>
+
+            <div className="linkGroup">
+              <span className="groupTitle">PARTNERS</span>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                Booking
+              </li>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                Rentcars
+              </li>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                HostelWorld
+              </li>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                Trivago
+              </li>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                TripAdvisor
+              </li>
+            </div>
+            <div className="linkGroup">
+              <span className="groupTitle">LAST MINUTE</span>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                India
+              </li>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                California
+              </li>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                Indonesia
+              </li>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                UAE
+              </li>
+              <li className="footerList flex">
+                <FiChevronRight className="icon" />
+                London
+              </li>
+            </div>
+          </div>
+
+          <div className="footerDiv flex">
+            <small>BEST WEBSITE THEME</small>
+            <small>COPYRIGHTS RESERVED - ISRATECH 2022</small>
           </div>
         </div>
       </div>

@@ -140,6 +140,57 @@
           }
         }
       }
+
+      .footerLinks {
+        flex-basis: 50%;
+        width: 100%;
+        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+
+        .linkGroup {
+          .groupTitle {
+            display: block;
+            font-weight: 600;
+            color: $color_black;
+            margin-bottom: 0.5rem;
+          }
+
+          .footerList {
+            font-size: 15px;
+            color: $color_text;
+            transition: 0.3s ease-in-out;
+
+            .icon {
+              font-size: 15px;
+              color: $color_grey_text;
+            }
+
+            &:hover {
+              color: $color1;
+              transform: translateX(7px);
+
+              .icon {
+                color: $color2;
+              }
+            }
+          }
+        }
+      }
+
+      .footerDiv {
+        flex-direction: column;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: $color2;
+        padding: 0.5rem 2rem;
+        small {
+          font-size: 10px;
+          color: $color_white;
+        }
+      }
     }
   }
 }
