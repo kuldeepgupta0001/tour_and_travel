@@ -5,12 +5,17 @@
 @import "home";
 @import "main";
 @import "footer";
+
+html {
+  scroll-behavior: smooth;
+}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 a {
   text-decoration: none;
 }
@@ -65,4 +70,14 @@ input {
 }
 body {
   background: $color_body;
+}
+@media screen and (min-width: 1240px) {
+  .container {
+    width: 80% !important;
+    margin: auto !important;
+  }
+
+  .section {
+    padding: 6rem 0 4rem;
+  }
 }
